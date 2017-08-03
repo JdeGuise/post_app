@@ -1,0 +1,36 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$border : 1px solid black;
+
+
+
+html, body {
+	background-color: rgb(200,200,200);
+}
+
+
+.index_table {
+
+	border: $border;
+
+
+
+	th {
+		border: $border;
+		text-align: center;
+	}
+
+	tr:hover{
+		background-color: grey;
+		color: white;
+	}
+
+	tr {
+		td {
+			text-decoration: none;
+		}
+	}
+
+}
